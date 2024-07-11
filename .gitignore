@@ -38,3 +38,4 @@ __pycache__/transliterator.cpython-312.pyc
 .vscode
 .vscode/launch.json
 .idea/vcs.xml
+.gitignore
