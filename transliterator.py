@@ -26,9 +26,10 @@ class Transliterator:
 
 
 class Translate:
-    def __init__(self):
+    def __init__(self, only_offline=False):
         self.active = False
         self.online = False
+        self.only_offline = only_offline
         self.state_text = ''
 
         self.name_file_translate = "translate-ru_en-1_9.argosmodel"
@@ -63,6 +64,12 @@ class Translate:
         return self.state_text
 
     def _test_connect(self):
+        if self.only_offline:
+            logging.info(f"Включен режим офлайн")
+            self.state_text = 'Включен режим офлайн'
+            self.online = False
+            return
+        
         try:
             requests.head("https://www.google.com/", timeout=1)
             self.online = True

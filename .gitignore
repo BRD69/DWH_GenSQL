@@ -23,3 +23,12 @@ __pycache__/resources.cpython-311.pyc
 __pycache__/transliterator.cpython-311.pyc
 test.py
 img/Thumbs.db
+__pycache__/constants.cpython-312.pyc
+__pycache__/dialog_prefix_postfix.cpython-312.pyc
+__pycache__/dialog_view_sql.cpython-312.pyc
+__pycache__/form_main.cpython-312.pyc
+__pycache__/func.cpython-312.pyc
+__pycache__/resources.cpython-312.pyc
+__pycache__/transliterator.cpython-312.pyc
+.vscode/launch.json
+.idea/vcs.xml
