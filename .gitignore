@@ -17,6 +17,7 @@ bin
 .idea/modules.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/inspectionProfiles/Project_Default.xml
+__pycache__
 __pycache__/constants.cpython-311.pyc
 __pycache__/dialog_prefix_postfix.cpython-311.pyc
 __pycache__/dialog_view_sql.cpython-311.pyc
