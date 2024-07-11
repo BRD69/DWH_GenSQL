@@ -1,11 +1,15 @@
+res
 res/dialog_prefix_postfix.ui
 res/dialog_view_sql.ui
 res/form_main_v2.ui
 res/form_main.ui
 res/res_main.qrc
 res/template_icon.pxd
+tr
 tr/translate-ru_en-1_9.argosmodel
+log
 log/_log.log
+bin
 .DS_Store
 .idea/.gitignore
 .idea/DWH_GenSQL.iml
@@ -30,5 +34,6 @@ __pycache__/form_main.cpython-312.pyc
 __pycache__/func.cpython-312.pyc
 __pycache__/resources.cpython-312.pyc
 __pycache__/transliterator.cpython-312.pyc
+.vscode
 .vscode/launch.json
 .idea/vcs.xml
