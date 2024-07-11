@@ -567,7 +567,7 @@ class UiMainWindow(QtWidgets.QMainWindow):
     def __init__(self, main_app):
         super(UiMainWindow, self).__init__()
         self.transliterator = Transliterator()
-        self.translate = Translate(only_offline=True)
+        self.translate = Translate()
         self.main_app = main_app
 
         self._setupUi()
